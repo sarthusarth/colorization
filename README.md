@@ -7,5 +7,5 @@ Neural Network to colorize grayscale images. Currenty it is trained only on imag
 </p>
 
 ## Blogs for Better Understanding
-- [Convolution Networks]('http://colah.github.io/posts/2014-07-Conv-Nets-Modular/')
-- [Research paper]('https://arxiv.org/abs/1604.07904')
+- [Convolution Networks](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
+- [Research paper](https://arxiv.org/abs/1604.07904)
