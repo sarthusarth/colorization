@@ -3,7 +3,7 @@ The code converts a black a white image into colored image.Currenty it is traine
 <!--
 <p >For Better understanding follow the <a href="http://setosa.io/ev/image-kernels/">blog</a>
 </p>-->
-Original Image
+Image that my model generated vs The original image
 <p >
   <img src="sample-coloring.tiff" width="350"/>
 </p>
