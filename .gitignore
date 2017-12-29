@@ -1,0 +1,7 @@
+
+# Directories and files to ignore when uploading code to floyd
+
+.floydexpt
+.floydignore
+.ipynb_checkpoints
+.DS_Store
