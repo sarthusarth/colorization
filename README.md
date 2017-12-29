@@ -1,11 +1,10 @@
-# Converting a Grayscale Image to Colored Image
-Neural Network to colorize grayscale images. Currenty it is trained only on images of cats but can be trained on any possible images.
+# Pix2Pix PyTorch Implementation
+Using cGans converting black and white image to colored images
 
-## Image That My Model Generated vs the Original Image .
+## After training for 10,000 on Cifar-10 Dataset
 <p >
-  <img src="sample-coloring.tiff" width="350"/>
+  <img src="res.png">
 </p>
 
-## Blogs for Better Understanding
-- [Convolution Networks](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
-- [Research paper](https://arxiv.org/abs/1604.07904)
+## Research Paper
+- [Original Blog](https://phillipi.github.io/pix2pix/)
