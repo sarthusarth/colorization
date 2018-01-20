@@ -6,9 +6,13 @@ import torch.nn as nn
 import torch.optim as optim
 from datetime import datetime
 from torch.autograd import Variable
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
 lr=1e-4
 betas=(0.9,0.99)
-batch_size=32
+batch_size=10
 path= "/input/"
 g_loss=[]   # storing Generator loss
 d_loss=[]   # storing Discriminator loss
@@ -53,10 +57,9 @@ for i in range(Epochs):
         loss.backward()
         g_optimizer.step()
     t2=datetime.now()
-    #print i,"->",t2-t1
+    print i,"->",t2-t1
     t1=datetime.now()
-
 plt.plot(g_loss)
 plt.plot(d_loss)
 plt.legend(["Generator","Discriminator"])
-plt.savefig("fig.png")
+plt.savefig("/output/fig.png")
